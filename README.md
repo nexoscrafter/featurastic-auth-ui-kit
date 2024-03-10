@@ -1,10 +1,10 @@
-# Featuristic Registration Page
-Welcome to the Feature-Rich Registration Page repository! This project provides a registration page with a variety of features for user sign-up.
+# Featuristic Auth Design Ui Kit
+Welcome to the Featurastic Auth Kit repository! This project provides a registration page with a variety of features for user sign-up.
 
 
 ## Features
 
-- User-friendly registration form
+- User-friendly form
 - Customizable input validation
 - Provides an engaging interface with interactive buttons and animations.
 - Ensures a secure regisration experience with customizable form fields.
@@ -18,7 +18,7 @@ Welcome to the Feature-Rich Registration Page repository! This project provides 
 
 ## Preview
 
-[Live Preview](https://noscreator.github.io/featurastic-registration-page/)
+[Live Preview](https://noscreator.github.io/featurastic-auth-ui-kit/)
 
 
 ## Usage
@@ -26,7 +26,7 @@ Welcome to the Feature-Rich Registration Page repository! This project provides 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/noscreator/featuristic-registration-page.git
+   git clone https://github.com/noscreator/featuristic-auth-ui-kit.git
    ```
 
 2. Open `index.html` in your preferred web browser.
@@ -36,7 +36,7 @@ Welcome to the Feature-Rich Registration Page repository! This project provides 
 ## File Structure
 
 ```plaintext
-featuristic-regisration-page/
+featuristic-auth-kit/
 ├── index.html
 ├── css/
 │   ├── style.css
