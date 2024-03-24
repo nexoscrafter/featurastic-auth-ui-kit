@@ -1,7 +1,28 @@
 // /js/registration.js
 
+function registerUser(event) {
+  event.preventDefault();
+
+  // Fetch user input
+  const username = document.getElementById('username').value;
+  const email = document.getElementById('email').value;
+  const password = document.getElementById('password').value;
+
+  // Add your registration logic here
+  // For example, you might want to send this data to the server for user creation
+
+  // Display a message or redirect the user after successful registration
+  // console.log('Registration successful! Redirecting to login page...');
+  // window.location.href = 'login.html';
+}
+
+// Add event listener to the registration form
+document.getElementById('registration-Form').addEventListener('submit', registerUser);
+
+
+
 function registerUser() {
-  
+
   // Fetch user input
   const usernameInput = document.getElementById('username');
   const emailInput = document.getElementById('email');
@@ -11,7 +32,7 @@ function registerUser() {
   // For example, you might want to send this data to the server for user creation
 
   // Display a message or redirect the user after successful registration
-  //  console.log('Registration successful! Redirecting to login page...');
+  // console.log('Registration successful! Redirecting to login page...');
   // window.location.href = 'login.html';
 
 

@@ -1,5 +1,3 @@
-// /js/main.js
-
 function validateLoginForm() {
   const usernameInput = document.getElementById('username');
   const passwordInput = document.getElementById('password');
@@ -9,19 +7,19 @@ function validateLoginForm() {
     alert('Please enter your username.');
     return false;
   }
-  
- // Additional validation for username (minimum length)
- if (usernameInput.value.trim().length < 5) {
-   alert('Username must be at least 5 characters long.');
-   return false;
- }
+
+  // Additional validation for username (minimum length)
+  if (usernameInput.value.trim().length < 5) {
+    alert('Username must be at least 5 characters long.');
+    return false;
+  }
 
   // Basic validation for password (non-empty)
   if (passwordInput.value.trim() === '') {
     alert('Please enter your password.');
     return false;
   }
-  
+
   // Additional validation for password (minimum length)
   if (passwordInput.value.trim().length < 8) {
     alert('Password must be at least 8 characters long.');
