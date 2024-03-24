@@ -4,9 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/styles.css">
-  <link rel="stylesheet" href="../css/auth.css">
-  <title>Two-Factor Authentication</title>
+<link rel="stylesheet" href="../css/styles.css">  <title>Two-Factor Authentication</title>
 </head>
 
 <body>
@@ -34,21 +32,22 @@
         </div>
         <div class="extra">
           <p class="or">OR</p>
-          <p class="backup-code">Use Backup Code</p>
+          <a class="link" href="./">Use Backup Code</p>
         </div>
         <div class="button-group">
           <button class="button" type="submit">Verify</button>
-          <span onclick="resendCode()" class="button clip-2">
+          <button onclick="resendCode()" class="button clip-2">
             <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
               <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9.5 10a2.5 2.5 0 1 1 5 .2 2.4 2.4 0 0 1-2.5 2.4V14m0 3h0m9-5a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
             </svg>
-          </span>
+          </button>
         </div>
       </form>
     </div>
   </div>
-  <script src="../js/main.js"></script>
-  <script src="../js/2fa.js"></script>
+  <!-- External JavaScript file -->
+<script src="../js/main.js"></script>
+  <script src="../js/2fa.js"></script>  
 </body>
 
 </html>
